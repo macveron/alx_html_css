@@ -1,98 +1,81 @@
-/* General styles */
-body {
+/* Resetting some default styles */
+* {
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f0f0f0; /* Figma Background Color */
+    color: #333; /* Default text color */
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-color: #f5f5f5; /* Light gray background */
+    min-height: 100vh;
 }
 
+/* Header Styling */
 header {
-    background-color: #f8f9fa; /* Example background color */
-    padding: 20px;
-    text-align: center;
+    background-color: #4A90E2; /* Figma Header Color */
+    color: white;
+    padding: 1.5rem; /* Adjust based on design */
 }
 
-header h1 {
-    font-size: 2.5em; /* Example font size */
-    color: #333; /* Example text color */
-}
-
-nav ul {
+header ul {
+    display: flex;
     list-style-type: none;
-    padding: 0;
+    justify-content: space-between;
+    align-items: center; /* Vertically center items */
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+header ul li {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #007bff; /* Example link color */
+header .logo {
+    font-size: 2rem; /* Make logo larger */
+    font-weight: bold;
 }
 
-nav ul li a:hover {
-    background-color: #888; /* Hover effect */
-}
-
-.logo {
-    font-size: 2em; /* Make the logo larger */
-    padding-right: 10px;
-}
-
+/* Banner Section Styling */
 main {
     display: flex;
     flex: auto;
-    padding: 20px;
-    gap: 20px;
+    padding: 2rem;
+    background-color: #EAEFF1; /* Background color for the main area */
 }
 
 article {
     flex: 2;
-    background-color: #ffffff;
-    padding: 20px;
-    overflow-y: auto;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
-    border: 1px solid #ddd; /* Light border around the article */
+    margin-right: 2rem;
+}
+
+article h1 {
+    font-size: 2.5rem; /* Adjust based on Figma */
+    color: #333; /* Title color */
+    margin-bottom: 1rem;
+}
+
+article p {
+    font-size: 1.2rem; /* Adjust based on Figma */
+    line-height: 1.5; /* Improved readability */
+    margin-bottom: 1rem;
 }
 
 aside {
     flex: 1;
-    background-color: #fafafa;
-    padding: 20px;
-    overflow-y: auto;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    border: 1px solid #ddd; /* Light border */
+    background-color: #F4F4F4; /* Sidebar background color */
+    padding: 1rem;
 }
 
+/* Adjusting footer */
 footer {
     background-color: #333;
-    color: #fff;
-    padding: 20px;
-    border-top: 5px solid #444; /* Slight border at the top of the footer */
+    color: white;
+    padding: 1rem;
+    text-align: center;
 }
-
-/* Article-specific styles */
-article h2 {
-    color: #333;
-    border-bottom: 2px solid #f4b400; /* Yellow accent for section titles */
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-article p {
-    line-height: 1.6; /* Improve readability */
-}
-
-article ul {
-    margin-left: 20px;
-}
-
 /* Responsive design */
 @media (max-width: 768px) {
     body {
