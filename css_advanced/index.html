@@ -3,51 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ALX HTML & CSS Advanced Project">
-    <title>CSS Advanced Project</title>
+    <title>SmileSchool</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="works_on_smartphone">
-
-    <!-- Header Section -->
+<body>
     <header>
+        <div class="logo">SmileSchool</div>
         <nav>
             <ul>
-                <li class="logo">&spades;</li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Login</a></li>
             </ul>
         </nav>
     </header>
+    <section class="hero">
+        <div class="overlay">
+            <div class="hero-content">
+                <h1>Get schooled</h1>
+                <p>SMILES | GRIN | LAUGH</p>
+                <button class="cta-button">Register for Free</button>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>Learn from the pros</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <img src="philip.jpg" alt="Philip Massey">
+                <h3>Philip Massey</h3>
+                <p>Smile of the year - 2018-2019</p>
+            </div>
+            <div class="testimonial">
+                <img src="nannie.jpg" alt="Nannie Lawrence">
+                <h3>Nannie Lawrence</h3>
+                <p>Best - Active Smile - 2017</p>
+            </div>
+            <div class="testimonial">
+                <img src="bruce.jpg" alt="Bruce Walters">
+                <h3>Bruce Walters</h3>
+                <p>Best Friend Smile - 2019</p>
+            </div>
+            <div class="testimonial">
+                <img src="henry.jpg" alt="Henry Hughes">
+                <h3>Henry Hughes</h3>
+                <p>24h Smiles Winner - 2016-2019</p>
+            </div>
+        </div>
+    </section>
+    
+        <!-- Quotes Section -->
+        <section class="quotes-section">
+            <div class="quote">
+                <p class="quote-text">"Learning how to smile changed my life!"</p>
+                <p class="quote-author">- Phillip Massey</p>
+            </div>
+            <div class="quote">
+                <p class="quote-text">"A smile is the most beautiful curve on anyone's face."</p>
+                <p class="quote-author">- Nannie Lawrence</p>
+            </div>
+            <div class="quote">
+                <p class="quote-text">"The best smiles are shared with friends and loved ones."</p>
+                <p class="quote-author">- Bruce Walters</p>
+            </div>
+        </section>    
 
-    <!-- Main Content Area -->
-    <main>
-        <article>
-            <h1>Welcome to the Advanced CSS Project</h1>
-            <p>This project is focused on creating a visually appealing and responsive website using CSS Flexbox and advanced design techniques.</p>
-            <section>
-                <h2>Project Goals</h2>
-                <p>By the end of this project, you will have a deeper understanding of how to structure and style web pages, following modern web development practices.</p>
-            </section>
-        </article>
+        <!-- Videos List Section -->
+    <section class="videos-section">
+        <h2>Learn from the Pros</h2>
+        <div class="videos-grid">
+            <div class="video-card">
+                <img src="path/to/video1-thumbnail.jpg" alt="Video 1 Thumbnail">
+                <div class="video-info">
+                    <h3>Phillip Massey</h3>
+                    <p>« Smile of the Year » 2018-2019</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="path/to/video2-thumbnail.jpg" alt="Video 2 Thumbnail">
+                <div class="video-info">
+                    <h3>Nannie Lawrence</h3>
+                    <p>Best « Little Smile » 2017</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="path/to/video3-thumbnail.jpg" alt="Video 3 Thumbnail">
+                <div class="video-info">
+                    <h3>Bruce Walters</h3>
+                    <p>Best « Friend Smile » Live Performance 2019</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="path/to/video4-thumbnail.jpg" alt="Video 4 Thumbnail">
+                <div class="video-info">
+                    <h3>Henry Hughes</h3>
+                    <p>« 24h Smiles » Winner 2016-2019</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <aside>
-            <h2>Quick Links</h2>
-            <ul>
-                <li><a href="#">Learn HTML</a></li>
-                <li><a href="#">Learn CSS</a></li>
-                <li><a href="#">Responsive Design</a></li>
-                <li><a href="#">Figma Basics</a></li>
-            </ul>
-        </aside>
-    </main>
+    <section class="membership-section">
+        <div class="membership-content">
+            <h2>Join Our Membership</h2>
+            <p>Unlock exclusive content and take your smile to the next level with our membership plans.</p>
+            <div class="membership-plans">
+                <!-- Membership Plan 1 -->
+                <div class="plan">
+                    <h3>Basic Plan</h3>
+                    <p class="price">$9.99 / month</p>
+                    <ul class="plan-features">
+                        <li>Access to free content</li>
+                        <li>Monthly webinars</li>
+                        <li>Email support</li>
+                    </ul>
+                    <a href="#" class="cta-button">Get Started</a>
+                </div>
+                <!-- Membership Plan 2 -->
+                <div class="plan">
+                    <h3>Premium Plan</h3>
+                    <p class="price">$19.99 / month</p>
+                    <ul class="plan-features">
+                        <li>All Basic Plan features</li>
+                        <li>Exclusive video tutorials</li>
+                        <li>1-on-1 coaching</li>
+                    </ul>
+                    <a href="#" class="cta-button">Get Started</a>
+                </div>
+                <!-- Membership Plan 3 -->
+                <div class="plan">
+                    <h3>Pro Plan</h3>
+                    <p class="price">$29.99 / month</p>
+                    <ul class="plan-features">
+                        <li>All Premium Plan features</li>
+                        <li>Priority support</li>
+                        <li>Personalized smile assessment</li>
+                    </ul>
+                    <a href="#" class="cta-button">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is the membership plan?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Our membership plan offers exclusive content, personalized services, and much more to improve your smile.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do I cancel my subscription?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>You can cancel your subscription anytime by visiting the account settings page.</p>
+                </div>
+            </div>
+            <!-- Add more FAQ items as needed -->
+        </div>
+    </section>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>© 2024 Advanced CSS Project | Designed by Veronicah</p>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="path-to-your-logo-image.png" alt="Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="path-to-facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="path-to-twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="path-to-instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Smile School. All Rights Reserved.</p>
+        </div>
     </footer>
-
 </body>
 </html>
