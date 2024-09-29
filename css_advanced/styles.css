@@ -352,3 +352,66 @@ nav ul li a {
     transition: transform 0.3s ease;
 }
 
+.footer {
+    background-color: #333; /* Background color from Figma */
+    color: #fff; /* Text color from Figma */
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+}
+
+.footer-logo img {
+    width: 150px; /* Adjust size according to Figma */
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links ul li {
+    margin: 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; /* Font size based on Figma */
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #ff5722; /* Hover color from Figma */
+}
+
+.footer-social a {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.footer-social a img {
+    width: 24px; /* Size of social media icons */
+    height: auto;
+}
+
+.footer-social a:hover {
+    transform: scale(1.1); /* Hover effect for social icons */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #ccc; /* Text color for copyright notice */
+}
