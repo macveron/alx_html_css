@@ -11,7 +11,7 @@ This project focuses on enhancing web development skills by styling a webpage us
 - Enhance visual aesthetics while maintaining usability.
 
 ## Figma Design
-The project design and layout can be accessed through the Figma file [here](https://www.figma.com/). It is recommended to create a Figma account and duplicate the design to your drafts for easy reference.
+The project design and layout can be accessed through the Figma file [here](https://www.figma.com/design/ZE3RyJSjlDAlnKrwuqQK4P/Homepage-(Copy)?node-id=0-1&t=eXMpYptmgZdiUmUy-1). It is recommended to create a Figma account and duplicate the design to your drafts for easy reference.
 
 ## Images & Assets
 The project will use specific images and logos available [here](#). Make sure to download and include them in the appropriate folders.
