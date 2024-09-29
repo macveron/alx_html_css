@@ -9,7 +9,7 @@ This project focuses on enhancing CSS skills by creating a webpage based on a Fi
 - Code should be W3C compliant.
 
 ## Setup
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `https://github.com/macveron/alx_html_css.git`
 2. Open `index.html` in your browser.
 
 ## Design Reference
