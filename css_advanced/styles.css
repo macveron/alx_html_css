@@ -286,3 +286,69 @@ nav ul li a {
 .cta-button:hover {
     background-color: #e64a19; /* Darker hover state */
 }
+
+.faq-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* Light background as per Figma */
+    text-align: center;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-section h2 {
+    font-size: 36px;
+    color: #333; /* Heading color from Figma */
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff5722; /* Question background color from Figma */
+    cursor: pointer;
+}
+
+.faq-question h3 {
+    font-size: 18px;
+    color: white; /* Question text color from Figma */
+    margin: 0;
+}
+
+.faq-toggle {
+    font-size: 24px;
+    color: white;
+}
+
+.faq-answer {
+    display: none; /* Initially hidden */
+    padding: 20px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #666; /* Answer text color */
+    border-top: 1px solid #ddd;
+}
+
+/* Open FAQ answer */
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+/* FAQ toggle icon change when open */
+.faq-item.active .faq-toggle {
+    transform: rotate(45deg); /* Changes '+' to 'x' */
+    transition: transform 0.3s ease;
+}
+
