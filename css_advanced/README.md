@@ -21,3 +21,9 @@ The project will use specific images and logos available [here](#). Make sure to
 - CSS3 for styling and layout.
 - Figma for design specifications.
 - Google Fonts for custom fonts (Source Sans Pro, Spin Cycle).
+## Installation
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/macveron/alx_html_css.git
