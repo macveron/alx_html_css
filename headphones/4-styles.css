@@ -1,0 +1,333 @@
+/* General Styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    width: 100%;
+    background-color: var(--background-color);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    color: var(--primary-color);
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    padding: 100px 20px;
+    background-image: url('images/headphones_hero_1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color);
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .hero-section button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .hero-section button:hover {
+    opacity: var(--button-hover-opacity);
+  }
+  
+  /* What we do... Section */
+.what-we-do {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.what-we-do h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.what-we-do p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.service {
+    width: 150px;
+    text-align: center;
+}
+
+.service i {
+    font-size: 48px;
+    color: #FF6565;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.our-results {
+    background: url(C:\Users\user\AppData\Local\Temp\090a73ef-6d3b-47a5-826a-088324bb36ec_d1597894d79386c83b9b.zip.6ec\images\headphones_hero_1.jpg) no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.our-results h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.our-results p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.results-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.result-card {
+    width: 150px;
+    height: 150px;
+    background-color: #FF6565;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.result-card h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.result-card p {
+    font-size: 0.9rem;
+    margin-top: 0;
+}
+
+.contact-us {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.content-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-us p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Form Styling */
+.contact-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    transition: box-shadow 0.2s ease;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #ff4b2b; /* Bold, standout color */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px; /* Rounder edges for a modern look */
+    cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.2s ease;
+}
+
+.cta-btn:hover {
+    background-color: #e63900; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+/* CTA Button focus state */
+.cta-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 75, 43, 0.5); /* Glow effect when focused */
+}
+
+.footer {
+    background-color: #333; /* Dark background for contrast */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #fff; /* White text for links */
+    margin: 0 15px;
+    text-decoration: none; /* No underline */
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff4b2b; /* Change color on hover */
+}
+
+.social-media {
+    margin-bottom: 15px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 25px; /* Icon size */
+    height: 25px; /* Icon size */
+    transition: transform 0.3s;
+}
+
+.social-media a:hover img {
+    transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+.footer-bottom {
+    border-top: 1px solid #444; /* Top border for separation */
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0; /* Remove default margin */
+}
+
+@media (max-width: 480px) {
+      nav {
+        flex-direction: column;
+      }
+    
+      .hero-section h1 {
+        font-size: 2rem;
+      }
+      .hero-section p {
+        font-size: 1rem;
+      }
+    
+      .hero-section button {
+        font-size: 1rem;
+        padding: 8px 16px;
+      }
+    }
+    
