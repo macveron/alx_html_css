@@ -159,6 +159,12 @@ body {
     font-size: 0.8rem; /* Font size for description */
 }
 
+.contact-us {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
 .content-wrapper {
     max-width: 600px;
     margin: 0 auto;
